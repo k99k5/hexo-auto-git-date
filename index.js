@@ -10,8 +10,8 @@ const front = require('hexo-front-matter');
 
 hexo.extend.filter.register('before_post_render', data => {
     let filePath = getFilePath(data);
-    if (filePath.includes('/content/')) {
-        filePath = filePath.replace('/content/', '/source/');
+    if (filePath.includes('/source/')) {
+        filePath = filePath.replace('/source/', '/content/');
     }
     const [originalDate, originalUpdated] = getOriginalDateMeta(data)
     if (!originalDate || originalDate.valueOf() <= 1000) {
