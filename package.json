@@ -1,5 +1,5 @@
 {
-  "name": "hexo-filter-date-from-git",
+  "name": "hexo-auto-git-date",
   "version": "0.1.2",
   "description": "Read git log and overwrite the front-matter properties `date` and `updated` for each posts",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xcatliu/hexo-filter-date-from-git.git"
+    "url": "git+https://github.com/k99k5/hexo-auto-git-date.git"
   },
   "keywords": [
     "hexo",
