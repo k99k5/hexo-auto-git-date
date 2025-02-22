@@ -1,4 +1,4 @@
-# hexo-filter-date-from-git
+# hexo-auto-git-date
 
 Read git log and overwrite the front-matter properties `date` and `updated` for each posts.
 
@@ -11,7 +11,7 @@ And the GitHub repo for that site: https://github.com/xcatliu/js-index
 ## Installation
 
 ```shell
-$ npm install hexo-filter-date-from-git --save
+$ npm install hexo-auto-git-date --save
 ```
 
 ## Usage
