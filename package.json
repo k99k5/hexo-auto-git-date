@@ -1,6 +1,6 @@
 {
   "name": "hexo-auto-git-date",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Read git log and overwrite the front-matter properties `date` and `updated` for each posts",
   "main": "index.js",
   "scripts": {
